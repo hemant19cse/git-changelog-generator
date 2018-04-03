@@ -1,0 +1,19 @@
+#Disclaimer: The author of these scrips is not liable for any temporary or permanent damane caused by the scripts written to ease the Change log generation from the git commits.
+#
+
+CHANGE_LOG_FILE_NAME="GENERATED_CHNAGELOG"
+PROJECT_COMMIT_BASE_URL="https://github.com/hemant19cse/git-changelog-generator/commit/"
+#false: link to the commit with change will not be created, set the value to true to enable change link generation
+CREATE_COMMIT_LINK="true"
+COMMIT_LINK_MSG="View Commit"
+#feature - new feature, changed - feature behavior change, removed - removed a feature, fix - fixed a bug, refactor - code refactoring, no impact on feature, perf - performance enahnacement
+TRACK_CHANGE_CATEGOTRIES="feature,changed,removed,fix,refactor,perf,security"
+feature_title="New Features:"
+changed_title="Features Changed:"
+removed_title="Features Removed:"
+fix_title="Bug Fixes:"
+refactor_title="Code Refactoring:"
+perf_title="Performance Enhancements:"
+security_title="Security Fixes:"
+
+#You can create you own category as well, add the category in the comma separate change category and also add category title by creating a property - catname_title="title"
