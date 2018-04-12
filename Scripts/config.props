@@ -1,8 +1,17 @@
 #Disclaimer: The author of these scrips is not liable for any temporary or permanent damane caused by the scripts written to ease the Change log generation from the git commits.
 #
 
+#git/hg
+REPO_TYPE="git"
+#Used in case of hg repository to look for tags
+REPO_BRANCH="default"
+#Update with your repository url
+#Sample for HG repo url format
+#PROJECT_COMMIT_BASE_URL="https://host/project_name/code/$REPO_BRANCH/"
+#Sample for git repo url format
+PROJECT_COMMIT_BASE_UR="https://github.com/hemant19cse/git-changelog-generator/commit/"
+
 CHANGE_LOG_FILE_NAME="GENERATED_CHNAGELOG"
-PROJECT_COMMIT_BASE_URL="https://github.com/hemant19cse/git-changelog-generator/commit/"
 #false: link to the commit with change will not be created, set the value to true to enable change link generation
 CREATE_COMMIT_LINK="true"
 COMMIT_LINK_MSG="View Commit"
