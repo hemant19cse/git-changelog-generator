@@ -9,7 +9,7 @@ REPO_BRANCH="default"
 #Sample for HG repo url format
 #PROJECT_COMMIT_BASE_URL="https://host/project_name/code/$REPO_BRANCH/"
 #Sample for git repo url format
-PROJECT_COMMIT_BASE_UR="https://github.com/hemant19cse/git-changelog-generator/commit/"
+PROJECT_COMMIT_BASE_URL="https://github.com/hemant19cse/git-changelog-generator/commit/"
 
 CHANGE_LOG_FILE_NAME="GENERATED_CHNAGELOG"
 #false: link to the commit with change will not be created, set the value to true to enable change link generation
